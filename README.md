@@ -5,7 +5,7 @@
 
 ## ✨ 스크린샷
 
-<img src= "">
+<img src= "https://github.com/buskingsue/smart_farm_game/blob/main/screen_shot.png">
 
 ## 🚀 주요 기능
 
