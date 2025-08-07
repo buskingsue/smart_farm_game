@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Smart Farm Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="farm-plot">
+            <h2>나의 스마트 팜 🌱</h2>
+            <div class="plant-area">
+                <img id="plant-image" src="tree.png" alt="Plant">
+            </div>
+            <p>성장률</p>
+            <div class="growth-bar-container">
+                <div id="growth-bar">0%</div>
+            </div>
+            <p id="money-display">💰 보유 자금: 1000원</p>
+        </div>
+
+        <div class="control-panel">
+            <h2>제어판</h2>
+            <div class="sensor-data">
+                <p>🌡️ 현재 온도: <span id="temp-display">25</span>°C</p>
+                <p>💧 토양 수분: <span id="humidity-display">50</span>%</p>
+            </div>
+            <div class="controls">
+                <button id="water-button">💧 물 주기 (-10원)</button>
+                <button id="fan-button">💨 팬 켜기 (-20원)</button>
+                <button id="harvest-button" disabled>🌾 수확하기 (+200원)</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="message-box" class="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
