@@ -2,9 +2,9 @@
 # 🌿 스마트 팜 키우기 게임 (Smart Farm Game)
 
 간단한 웹 기반 스마트 팜 시뮬레이션 게임입니다. 플레이어는 센서 데이터를 모니터링하고 적절한 조치를 취하여 작물을 성공적으로 키워 수확해야 합니다. 이 프로젝트는 순수 HTML, CSS, JavaScript만을 사용하여 웹 개발의 기본 원리를 학습하는 것을 목표로 합니다.
-
+##
 # [게임 실행 클릭](https://buskingsue.github.io/smart_farm_game)
-
+##
 ## ✨ 스크린샷
 <img src= "https://github.com/buskingsue/smart_farm_game/blob/main/screen_shot.png">
 
